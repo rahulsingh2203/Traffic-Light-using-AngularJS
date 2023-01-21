@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%;
+}
+.control{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    width: 20%;
+    height: 50%;
+}
+#redBtn{
+    background-color: red;
+    color: white;
+    border: 3px solid white;
+    border-radius: 2rem;
+    transition: 0.5s ease;
+}
+#redBtn:hover{
+    background-color: white;
+    color: red;
+    border: 3px solid red;
+}
+#yellowBtn{
+    background-color: yellow;
+    color: black;
+    border: 3px solid black;
+    border-radius: 2rem;
+    transition: 0.5s ease;
+}
+#yellowBtn:hover{
+    background-color: white;
+    border: 3px solid yellow;
+}
+#greenBtn{
+    background-color: green;
+    color: white;
+    border: 3px solid white;
+    border-radius: 2rem;
+    transition: 0.5s ease;
+}
+#greenBtn:hover{
+    background-color: white;
+    color: green;
+    border: 3px solid green;
+}
