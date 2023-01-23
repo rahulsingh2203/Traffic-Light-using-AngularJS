@@ -4,21 +4,23 @@
     justify-content: center;
     align-items: center;
 }
-.circle{
+.circle1{
     width: 100px;
     height: 100px;
-    background-color: black;
     margin: 10px;
     border-radius: 50%;
 }
-#red{
-    background-color: red !important;
+.circle2{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
 }
-#yellow{
-    background-color: yellow !important;
-}
-#green{
-    background-color: green !important;
+.circle3{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
 }
 .control{
     margin: 2rem 0rem;

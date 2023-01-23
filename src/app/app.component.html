@@ -1,8 +1,4 @@
-<div class="control">
-  <button id="redBtn" (click)="red()">Red</button>
-  <button id="yellowBtn" (click)="yellow()">Yellow</button>
-  <button id="greenBtn" (click)="green()">Green</button>
-</div>
+<!--
 <div class="signal" ngSwitch="color">
   <div class="container" *ngSwitchCase="'red'">
     <div class="circle" id="red"></div>
@@ -14,7 +10,7 @@
     <div class="circle" id="yellow"></div>
     <div class="circle"></div>
   </div>
-  <div class="container" *ngSwitchCase="'green'" >
+  <div class="container" *ngSwitchCase="'green'">
     <div class="circle"></div>
     <div class="circle"></div>
     <div class="circle" id="green"></div>
@@ -24,4 +20,15 @@
     <div class="circle"></div>
     <div class="circle"></div>
   </div>
+</div> -->
+<div class="container">
+  <div class="circle1" [style.background-color]="color1"></div>
+  <div class="circle2" [style.background-color]="color2"></div>
+  <div class="circle3" [style.background-color]="color3"></div>
+</div>
+
+<div class="control">
+  <button id="redBtn" (click)="red()">Red</button>
+  <button id="yellowBtn" (click)="yellow()">Yellow</button>
+  <button id="greenBtn" (click)="green()">Green</button>
 </div>
